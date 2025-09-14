@@ -1,0 +1,81 @@
+/* Main chat container */
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Message bubbles */
+.user-message {
+    background-color: #dcf8c6;
+    padding: 10px 15px;
+    border-radius: 15px 15px 0 15px;
+    margin: 5px 0;
+    max-width: 70%;
+    margin-left: auto;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 0;
+    margin: 5px 0;
+    max-width: 70%;
+    margin-right: auto;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Avatar images */
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Input area */
+.input-area {
+    display: flex;
+    margin-top: 20px;
+    position: sticky;
+    bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.header p {
+    color: #666;
+    margin-top: 0;
+}
